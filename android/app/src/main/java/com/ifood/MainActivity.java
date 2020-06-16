@@ -23,8 +23,8 @@ public class MainActivity extends ReactActivity {
     return new ReactActivityDelegate(this, getMainComponentName()) {
       @Override
       protected ReactRootView createRootView() {
-        return new RNGestureHandlerEnabledRootView(MainActivity.this)
+        return new RNGestureHandlerEnabledRootView(MainActivity.this);
       }
-    }
+    };
   }
 }
