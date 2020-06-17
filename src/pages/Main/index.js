@@ -1,15 +1,19 @@
 import React from 'react'
-import logo from '~/assets/pointec-logo.png'
+
+import Header from '~/components/Header'
+import Coupon from '~/components/Coupon'
+import Category from '~/components/Category'
 
 import {
-  Container, Image, Title
+  Container
 } from './styles'
 
 export default function Main() {
   return (
     <Container>
-      <Image source={logo} />
-      <Title>Bem vindo(a) ao template Basic da POINTEC</Title>
+      <Header />
+      <Coupon />
+      <Category />
     </Container>
   )
 }
