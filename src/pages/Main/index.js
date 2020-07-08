@@ -5,7 +5,7 @@ import Coupon from '~/components/Coupon'
 import Category from '~/components/Category'
 
 import {
-  Container
+  Container,
 } from './styles'
 
 export default function Main() {
