@@ -5,7 +5,7 @@ import voucher from '~/tmp/images/icon/voucher.jpg'
 
 import {
   Container, Card, Content,
-  Image, Information, Text
+  Image, Information, Text,
 } from './styles'
 
 export default function Coupon() {
@@ -22,7 +22,11 @@ export default function Coupon() {
           </Information>
         </Content>
 
-        <Icon name="angle-right" size={25} color="#EA1D2C" />
+        <Icon
+          name="angle-right"
+          size={25}
+          color="#EA1D2C"
+        />
       </Card>
     </Container>
   )
