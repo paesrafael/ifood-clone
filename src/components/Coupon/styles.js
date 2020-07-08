@@ -29,11 +29,11 @@ const Information = styled.View`
 `
 
 const Text = styled.Text`
-  color: ${props => props.clr ? props.clr : '#000'};
-  font-weight: ${props => props.bold ? 'bold' : 'normal'};
+  color: ${(props) => (props.clr ? props.clr : '#000')};
+  font-weight: ${(props) => (props.bold ? 'bold' : 'normal')};
 `
 
 export {
   Container, Card, Content,
-  Image, Information, Text
+  Image, Information, Text,
 }
