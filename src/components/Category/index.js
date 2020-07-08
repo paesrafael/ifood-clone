@@ -3,7 +3,7 @@ import Data from './data'
 
 import {
   Container, CategoryCard,
-  Image, Text
+  Image, Text,
 } from './styles'
 
 export default function Category() {
@@ -15,8 +15,8 @@ export default function Category() {
 
   return (
     <Container>
-      {category.map((item, index) => (
-        <CategoryCard key={index}>
+      {category.map((item) => (
+        <CategoryCard key={item.id}>
           <Image source={item.image} />
           <Text>{item.name}</Text>
         </CategoryCard>
