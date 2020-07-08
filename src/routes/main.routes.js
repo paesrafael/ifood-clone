@@ -9,7 +9,7 @@ export default function MainRoutes() {
   return (
     <Tab.Navigator
       initialRouteName="Main"
-      screenOptions={{headerShown: false}}
+      screenOptions={{ headerShown: false }}
     >
       <Tab.Screen
         name="Main"
