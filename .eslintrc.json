@@ -1,25 +1,22 @@
 {
-  "parser": "babel-eslint",
   "env": {
-    "es6": true,
+    "es2020": true,
     "jest": true
   },
   "extends": [
-    "airbnb",
-    "plugin:react-native/all",
-    "prettier",
-    "prettier/react"
+    "airbnb"
   ],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly",
     "__DEV__": true
   },
+  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": 2018,
+    "ecmaVersion": 11,
     "sourceType": "module"
   },
   "plugins": [
@@ -30,7 +27,6 @@
     "prettier"
   ],
   "rules": {
-    "prettier/prettier": "error",
     "react/jsx-filename-extension": [
       "error",
       {
@@ -46,7 +42,12 @@
     "react-native/no-color-literals": "off",
     "react-native/sort-styles": "off",
     "global-require": "off",
-    "react-native/no-raw-text": "off"
+    "react-native/no-raw-text": "off",
+    "semi": [
+      "error",
+      "never"
+    ],
+    "no-console": "off"
   },
   "settings": {
     "import/resolver": {
