@@ -20,9 +20,9 @@ const Title = styled.Text`
   padding-bottom: 15px;
   margin-right: 30px;
   font-size: 18px;
-  color: ${props => props.selected ? '#EA1D2C' : '#000'};
-  ${props => props.selected ? 'border-bottom-width: 1px' : ''};
-  ${props => props.selected ? 'border-bottom-color: #EA1D2C' : ''};
+  color: ${(props) => (props.selected ? '#EA1D2C' : '#000')};
+  ${(props) => (props.selected ? 'border-bottom-width: 1px' : '')};
+  ${(props) => (props.selected ? 'border-bottom-color: #EA1D2C' : '')};
 `
 
 const Endereco = styled.View`
@@ -39,5 +39,5 @@ const Text = styled.Text`
 export {
   Container, Head,
   Top, Title,
-  Endereco, Text
+  Endereco, Text,
 }
