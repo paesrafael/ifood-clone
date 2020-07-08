@@ -3,7 +3,7 @@ import Icon from 'react-native-vector-icons/FontAwesome5'
 
 import {
   Container, Head, Top,
-  Title, Endereco, Text
+  Title, Endereco, Text,
 } from './styles'
 
 export default function Header() {
