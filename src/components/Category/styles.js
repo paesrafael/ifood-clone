@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const Container = styled.ScrollView.attrs({
   horizontal: true,
-  showHorizontalScrollIndicator: false
+  showHorizontalScrollIndicator: false,
 })``
 
 const CategoryCard = styled.View`
@@ -23,5 +23,5 @@ const Text = styled.Text`
 
 export {
   Container, CategoryCard,
-  Image, Text
+  Image, Text,
 }
