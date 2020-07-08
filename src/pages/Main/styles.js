@@ -7,5 +7,5 @@ const Container = styled.View`
 `
 
 export {
-  Container
+  Container,
 }
